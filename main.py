@@ -112,7 +112,7 @@ def play_game():
             if position.isdigit() is False:
                 print("It's not a digit!")
                 continue
-            if int(position) not in list(range(1,10)):
+            if int(position) not in list(range(1, 10)):
                 print("It's not a digit in range (1-9)!\nTry again")
             if table[int(position)] in ['x', 'o']:
                 print(f"This field is already taken by {table[int(position)]}!\n")
